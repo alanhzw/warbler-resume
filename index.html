@@ -5,289 +5,125 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <link rel="stylesheet"
+          href="./index.css">
     <title>我的简历</title>
-    <style>
-      * {
-        box-sizing: border-box
-      }
-
-      body {
-        background: #eee;
-        margin: 20px 0
-      }
-
-      article {
-        width: 21cm;
-        min-height: 29.7cm;
-        background: #fff;
-        margin: 0 auto;
-        overflow: auto;
-        padding: 1em
-      }
-
-      p {
-        margin: .3em 0
-      }
-
-      h1 {
-        font-size: 25px;
-        margin-top: 0
-      }
-
-      h4,
-      h5,
-      h6 {
-        font-weight: 400
-      }
-
-      ol,
-      ul {
-        list-style: none;
-        padding: 0;
-        margin: 0
-      }
-
-      strong {
-        color: #f60
-      }
-
-      a {
-        color: #999;
-        text-decoration: none;
-        border-bottom: 1px solid
-      }
-
-      li,
-      p {
-        color: #666
-      }
-
-      strong {
-        font-weight: 400
-      }
-
-      h3,
-      h4,
-      h5,
-      h6 {
-        margin: 0
-      }
-
-      .bio {
-        position: relative
-      }
-
-      .bio img {
-        position: absolute;
-        top: 0;
-        right: 0
-      }
-
-      .projects p {
-        color: #666
-      }
-
-      .projects strong {
-        color: #f60
-      }
-
-      .projects>ol {
-        margin-top: 0;
-        list-style-position: inside;
-        padding: 0
-      }
-
-      .projects>ol>li {
-        margin-bottom: 24px
-      }
-
-      .projects>ol>li>header {
-        display: flex;
-        justify-content: space-between
-      }
-
-      .projects>ol>li h3 {
-        display: inline-block
-      }
-
-      #skills {
-        width: 500px;
-        height: 270px
-      }
-
-      @media print {
-        #skills {
-          display: none
-        }
-      }
-
-      .skills>.wrapper {
-        display: flex;
-        justify-content: space-between
-      }
-
-      .skills>.wrapper>:first-child {
-        margin-right: 24px
-      }
-
-      .skills>.wrapper>ul {
-        color: #666
-      }
-
-      .skills>.wrapper strong {
-        color: #f60
-      }
-
-      .skills>.wrapper>ul>li {
-        line-height: 1.2;
-        margin-bottom: 8px
-      }
-
-      .openSource header img {
-        position: absolute;
-        top: 0;
-        right: 0
-      }
-
-      .openSource>ul>li {
-        margin-bottom: 24px
-      }
-
-      .openSource header {
-        position: relative;
-        display: flex;
-        justify-content: space-between
-      }
-
-      .jobs>ol>li {
-        margin: 12px 0
-      }
-
-      .jobs header {
-        display: flex;
-        color: #666;
-        margin-bottom: 12px
-      }
-
-      .jobs header>h3 {
-        font-size: 18px;
-        color: #333
-      }
-
-      .jobs header>h4 {
-        margin-left: 1em;
-        font-size: 18px
-      }
-
-      .jobs header>span {
-        font-size: 18px;
-        margin-left: auto
-      }
-
-      @media (max-width:500px) {
-        body {
-          margin: 0
-        }
-
-        article {
-          width: auto;
-          height: auto
-        }
-
-        .bio img {
-          display: none
-        }
-
-        .skills .wrapper {
-          flex-direction: column
-        }
-
-        #skills {
-          width: auto
-        }
-
-        .jobs header {
-          flex-direction: column
-        }
-
-        .jobs header>h3,
-        .jobs header>h4,
-        .jobs header>span {
-          margin: 0
-        }
-      }
-
-      body {
-        margin: 0
-      }
-
-      .page2 {
-        page-break-before: always;
-        margin-top: 30px
-      }
-    </style>
   </head>
 
   <body>
     <article>
+
       <section class="bio">
         <h1>韩志伟</h1>
         <img src="//img10.360buyimg.com/imgzone/jfs/t1/109319/32/16804/2211095/61459dc0E7c7ee816/e0eb34e12c3ae89d.jpg"
              alt=""
              width="100">
-        <p> 男 | 23岁 | 前端开发工程师 | 大连 </p>
+        <p> 男 | 23 | 前端开发工程师 | 大连 </p>
         <p> 手机：17615180174 | 微信：Duwanyu515 | 邮箱：174184746@qq.com </p>
       </section>
+
+      <section class="skills">
+        <h2>技能</h2>
+        <div class="wrapper">
+          <ul>
+            <li>能够使用<strong> Photoshop </strong>进行切图，熟悉蓝湖，阿里 iconfont，svn，git 等工具的基础使用；</li>
+            <li>熟练掌握<strong> HTML </strong>，<strong> CSS </strong>常用属性的使用，了解 Animate.css，bootstrap，jquery 等框架；</li>
+            <li>熟练掌握<strong> JavaScript </strong>，了解<strong> ES6+ </strong>，<strong> TypeScript </strong>常用属性的使用；</li>
+            <li>熟练掌握<strong> Vue全家桶 </strong>的使用，包括 Vue2、Vue3、VueRouter、Vuex、Vuepress、axios 等；</li>
+            <li>熟练掌握<strong> UI组件库 </strong>的使用，包括 element-ui，vant，iView 等；</li>
+            <li>了解<strong> nodejs </strong>，包括 express，koa，egg，WebSocket，cheerio 等；</li>
+            <li>了解<strong> mongodb，mysql </strong>数据库语言; 了解 <strong> webpack </strong> 构建工具。</li>
+          </ul>
+        </div>
+      </section>
+
       <section class="projects">
-        <h2>工作经历 <span style='font-size: 16px;color:gray'>大连陆泽科技</span></h2>
-        <h4> 工作内容简介：负责开发电商平台的互动活动，如转盘抽奖，签到有礼等的活动页面以及活动配置页面。 </h4>
+        <h2>工作经历</h2>
+        <h3 style='font-size: 16px;color:gray'>大连陆泽科技( 2020 年 7 月至今 )</h3>
         <br>
         <ol>
           <li>
             <header>
-              <h3>超级会员</h3>
+              <h3>超级无线</h3>
             </header>
-            <p> 采用技术：<strong>JSP</strong> / <strong>Vue2</strong> / <strong>jquery</strong>。 </p>
-            <p> 我负责的：负责部分移动端活动模板，PC端活动设置页的维护和开发。 </p>
+            <div class="technology">
+              <div class="item">Vue3</div>
+              <div class="item">TypeScript</div>
+              <div class="item">Vant</div>
+              <div class="item">Git</div>
+            </div>
+            <p> 工作简介： 负责移动端定制活动的开发与维护，投放在京东 APP 中使用。</p>
+            <div> 我负责的：
+              <span>1. 根据设计图进行切图，还原静态页面；</span>
+              <p class="indent">2. 开发公用基础组件，如九宫格，大转盘等供团队使用；</p>
+              <p class="indent">3. 组织团队使用数据驱动的思想，相同类型活动只需修改配置文件；</p>
+              <p class="indent">4. 判断当前时间与指定时间，获取对应的配置信息，达到定时更换页面内容。</p>
+            </div>
           </li>
           <li>
             <header>
-              <h3>苏宁超级营销</h3>
+              <h3>天下秀招聘网站</h3>
+              <span>
+                <a href="http://ired-resource-adm.zhuhuakeji.com/"
+                   target="_blank">项目预览</a>
+              </span>
             </header>
-            <p> 采用技术：<strong>Vue2</strong> / <strong>Vue-router</strong> / <strong>vuex</strong></p>
-            <p> 我负责的：负责通过vue-cli搭建工程，以及部分移动端活动模板的开发。 </p>
+            <div class="technology">
+              <div class="item">Vue3</div>
+              <div class="item">TypeScript</div>
+              <div class="item">Element-Plus</div>
+              <div class="item">Git</div>
+            </div>
+            <p> 工作简介： 负责首页，详情页，搜索页，人才测评页，部分后台管理页的开发。</p>
+            <div> 我负责的：
+              <span>1. 根据设计图进行切图，还原静态页面；</span>
+              <p class="indent">2. 通过路由守卫进行鉴权；</p>
+              <p class="indent">3. 通过判断是否携带参数进行新建和编辑页的复用。</p>
+            </div>
           </li>
           <li>
             <header>
               <h3>云鹿CRM</h3>
             </header>
-            <p> 采用技术：<strong>Vue2</strong> / <strong>Vue-router</strong> / <strong>Element-UI</strong></p>
-            <p> 我负责的：负责部分移动端活动模板，PC端活动设置页，以及商城个人中心装修页的维护和开发。 </p>
+            <div class="technology">
+              <div class="item">Vue2</div>
+              <div class="item">Vue-router</div>
+              <div class="item">Element-UI</div>
+              <div class="item">Git</div>
+            </div>
+            <p> 工作简介： 独立负责 pc 端活动配置页面以及移动端活动的开发和维护。</p>
+            <div> 我负责的：
+              <span>1. 根据设计图进行切图，还原静态页面；</span>
+              <p class="indent">2. 使用动态组件完成动态表单，通过配置文件让不同的活动拥有不同的表单内容；</p>
+              <p class="indent">3. 使用 Promise.all 和 $refs 完成表单的统一校验，通过锚点跳到未通过项；</p>
+              <p class="indent">4. 使用数据驱动的思想，相同类型活动的不同模板只需修改配置文件。</p>
+            </div>
           </li>
           <li>
             <header>
-              <h3>超级无线</h3>
+              <h3>苏宁超级营销</h3>
             </header>
-            <p> 采用技术：<strong>Vue3</strong> / <strong>TypeScript</strong> / <strong>Vant</strong></p>
-            <p> 我负责的：负责部分移动端定制活动的开发与维护。 </p>
+            <div class="technology">
+              <div class="item">Vue2</div>
+              <div class="item">Vue-router</div>
+              <div class="item">Vuex</div>
+              <div class="item">Vant</div>
+              <div class="item">SVN</div>
+            </div>
+            <p> 工作简介： 独立完成工程的搭建，移动端活动的初步开发，投放在苏宁 APP 中使用。</p>
+            <div> 我负责的：
+              <span>1. 通过 vue-cli 搭建项目框架；</span>
+              <p class="indent">2. 对 axios 进行二次封装，统一管理 API 接口，实现请求拦截等；</p>
+              <p class="indent">3. 使用 vuex 进行状态管理；</p>
+              <p class="indent">4. 根据设计图进行切图，还原静态页面；</p>
+              <p class="indent">5. 结合苏宁 SDK，投放到苏宁 APP 中使用。</p>
+            </div>
           </li>
         </ol>
       </section>
-      <section class="skills">
-        <h2>技能</h2>
-        <div class="wrapper">
-          <ul>
-            <li>能够使用<strong> Photoshop </strong>进行切图，熟悉蓝湖，阿里iconfont，svn，git等工具的基础使用；</li>
-            <li>熟练掌握<strong> HTML </strong>，<strong> CSS </strong>常用属性的使用,了解Animate.css，bootstrap，jquery等框架；</li>
-            <li>熟练掌握<strong> JavaScript </strong>，了解<strong> ES6+ </strong>，<strong> TypeScript </strong>常用属性的使用；</li>
-            <li>熟练掌握<strong> Vue全家桶 </strong>的使用，包括 Vue2、Vue3、VueRouter、Vuex、Vuepress、axios等；</li>
-            <li>熟练掌握<strong> UI组件库 </strong>的使用，包括element-ui，vant，iView等；</li>
-            <li>了解<strong> nodejs </strong>，包括express，koa，mongodb，WebSocket，爬虫工具cheerio等。</li>
-          </ul>
-        </div>
-      </section>
+
       <section class="openSource">
-        <h2>开源项目</h2>
+        <h2>其它项目</h2>
         <ul>
           <li>
             <header>
@@ -299,18 +135,17 @@
                    target="_blank">项目预览</a>
               </span>
             </header>
-            <p> 采用技术：<strong>Vue3</strong> / <strong>TypeScript</strong></p>
-            <p> 项目简介：用来收藏网址的小项目，包括分组，书签的<strong>增加</strong>，<strong>删除</strong>，<strong>修改</strong>；</p>
-            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              可以<strong>自动抓取</strong>目标网站的title和icon；</p>
-            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              可以通过<strong>拖拽</strong>进行书签的排序；</p>
-            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              可以快速的通过各种搜索引擎进行搜索和百度翻译；</p>
-            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              通过<strong> localstorage </strong>进行数据的存储，并可以进行数据的<strong>下载</strong>和<strong>上传</strong>；</p>
-            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              所有的组件全部<strong>手写</strong>，未使用任何组件库，包括<strong>Dialog</strong>，<strong>Message</strong>，<strong>Form</strong>等。</p>
+            <div class="technology">
+              <div class="item">Vue3</div>
+              <div class="item">TypeScript</div>
+            </div>
+            <div> 项目简介：
+              <span>1. 用来收藏网址的小项目，包括分组，书签的<strong>增加</strong>，<strong>删除</strong>，<strong>修改</strong>；</span>
+              <p class="indent">2. 可以<strong>自动获取</strong>目标网站的 title 和 icon ；</p>
+              <p class="indent">3. 可以通过<strong>拖拽</strong>进行书签的排序；</p>
+              <p class="indent">4. 通过<strong> localstorage </strong>进行数据的存储，并可以进行数据的<strong>下载</strong>和<strong>上传</strong>；</p>
+              <p class="indent">5. 完成 <strong>Dialog</strong>，<strong>Message</strong>，<strong>Form</strong>等组件的编写。</p>
+            </div>
           </li>
           <li class="page2">
             <header>
@@ -322,70 +157,81 @@
                    target="_blank">项目预览</a>
               </span>
             </header>
-            <p> 采用技术：<strong>JavaScript</strong> / <strong>ES6+</strong></p>
-            <p>整理了一些 JavaScript 常用的工具函数。</p>
-          </li>
-          <li>
-            <header>
-              <h3>warlber-js文档</h3>
-              <span> <a href="https://github.com/alanhzw/warblerjs-guide"
-                   target="_blank">源码链接</a>
-                <a href="http://warblerjs.duwanyu.com"
-                   target="_blank">项目预览</a>
-              </span>
-            </header>
-            <p> 采用技术：<strong>Vuepress</strong></p>
-            <p> 项目简介：warlber-js 的操作文档。</p>
+            <div class="technology">
+              <div class="item">ES6+</div>
+              <div class="item">JavaScript</div>
+              <div class="item">Vuepress</div>
+            </div>
+            <p>整理了一些 JavaScript 常用的工具函数，并通过 Vuepress 生成了在线文档。</p>
           </li>
           <li>
             <header>
               <h3>个人主页</h3>
-              <span> <a href="#">源码私有</a>
+              <span>
                 <a href="https://www.duwanyu.com"
                    target="_blank">项目预览</a>
               </span>
             </header>
-            <p> 采用技术：<strong>Vue2全家桶 </strong> / <strong>express</strong> / <strong>mongodb</strong></p>
-            <p> 项目简介：我的个人主页</p>
-            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              使用<strong> vue-quill-editor </strong>搭建富文本编辑器实现文章的添加；</p>
-            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              使用<strong> 媒体查询 </strong>和<strong> rem </strong>进行移动端适配；</p>
-            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              使用<strong> css变量 </strong>和<strong> Animate.css库 </strong>和进行一些效果的展示；</p>
-            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              使用<strong> socket.io </strong>和<strong> vue-socket库 </strong>完成了一个简易的聊天室。</p>
+            <div class="technology">
+              <div class="item">Vue2全家桶</div>
+              <div class="item">express</div>
+              <div class="item">mongodb</div>
+            </div>
+            <div> 项目简介：
+              <span>1. 使用<strong> vue-quill-editor </strong>搭建富文本编辑器实现文章的添加；</span>
+              <p class="indent">2. 使用<strong> 媒体查询 </strong>和<strong> rem </strong>进行移动端适配；</p>
+              <p class="indent">3. 使用<strong> css变量 </strong>和<strong> Animate.css库 </strong>和进行一些效果的展示；</p>
+              <p class="indent">4. 使用<strong> socket.io </strong>和<strong> vue-socket库 </strong>完成了一个简易的聊天室。。</p>
+            </div>
           </li>
         </ul>
       </section>
+
       <section class="others">
         <h2>其他链接(<span style='font-size: 16px;color:gray'>链接无法点击时可手动输入</span>)</h2>
         <ul>
-          <li><a href="http://www.duwanyu.com"
+          <li>
+            <a href="http://www.duwanyu.com"
                target="_blank">
-              我的主页：</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            http://www.duwanyu.com</li>
-          <li><a href="https://juejin.cn/user/4099422807393901/posts"
+              我的主页：
+            </a>
+            <span>http://www.duwanyu.com</span>
+          </li>
+          <li>
+            <a href="https://juejin.cn/user/4099422807393901/columns"
                target="_blank">
-              我的博客：</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            https://juejin.cn/user/4099422807393901/posts</li>
-          <li><a href="https://github.com/alanhzw"
+              我的博客（掘金）：
+            </a>
+            <span>https://juejin.cn/user/4099422807393901/columns</span>
+          </li>
+          <li>
+            <a href="https://github.com/alanhzw"
                target="_blank">
-              我的 GitHub：</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            https://github.com/alanhzw</li>
-          <li><a href="http://warbler.duwanyu.com"
+              我的 GitHub：
+            </a>
+            <span>https://github.com/alanhzw</span>
+          </li>
+          <li>
+            <a href="http://warbler.duwanyu.com"
                target="_blank">
-              流莺书签在线预览：</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
-            http://warbler.duwanyu.com</li>
-          <li><a href="http://warblerjs.duwanyu.com"
+              流莺书签在线体验：
+            </a>
+            <span>http://warbler.duwanyu.com</span>
+          </li>
+          <li>
+            <a href="http://warblerjs.duwanyu.com"
                target="_blank">
-              warlber-js文档：</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            http://warblerjs.duwanyu.com</li>
+              warlber-js文档：
+            </a>
+            <span>http://warblerjs.duwanyu.com</span>
+          </li>
+          <li>
+            <a href="http://ired-resource-adm.zhuhuakeji.com"
+               target="_blank">
+              天下秀招聘网站：
+            </a>
+            <span>http://ired-resource-adm.zhuhuakeji.com</span>
+          </li>
         </ul>
       </section>
       <section class="education">
