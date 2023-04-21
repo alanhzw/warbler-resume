@@ -297,7 +297,7 @@
 
 <style lang="scss" scoped>
 .company-project {
-  margin-top: 32px;
+  margin-top: 36px;
   .title {
     font-size: 25px;
     margin-top: 0;

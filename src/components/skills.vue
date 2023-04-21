@@ -30,7 +30,7 @@
 
 <style lang="scss" scoped>
 .skills {
-  margin-top: 32px;
+  margin-top: 40px;
   .title {
     font-size: 25px;
     margin-top: 0;
