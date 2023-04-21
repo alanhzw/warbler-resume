@@ -74,8 +74,7 @@
             </p>
             <p><span class="circle">·</span>通过<strong> vite-press </strong>搭建用户帮助文档；</p>
             <p>
-              <span class="circle">·</span>通过<strong> websocket </strong
-              >实现实时展示现场的告警信息；
+              <span class="circle">·</span>通过<strong> websocket </strong>实时展示现场的告警信息；
             </p>
             <p>
               <span class="circle">·</span>通过<strong> Axure </strong>
@@ -260,6 +259,33 @@
           </div>
           <div class="right">
             <p><span class="circle">·</span>负责 Web 端和移动端页面的开发，联调，维护。</p>
+          </div>
+        </div>
+      </div>
+      <div class="job">
+        <div class="job-name">云鹿活动模板管理子系统</div>
+        <div class="skill-list">
+          <div class="skill">Vue3</div>
+          <div class="skill">Nuxt3</div>
+          <div class="skill">Typescript</div>
+          <div class="skill">Koa</div>
+          <div class="skill">mysql</div>
+        </div>
+        <div class="project-info">
+          <div class="left">
+            <p>项目简介：</p>
+          </div>
+          <div class="right">
+            <p>用户管理云鹿的活动模板，控制显示隐藏和开放时间等。</p>
+          </div>
+        </div>
+        <div class="project-my">
+          <div class="left">
+            <p>我负责的：</p>
+          </div>
+          <div class="right">
+            <p><span class="circle">·</span>使用 Nuxt3 搭建项目；</p>
+            <p><span class="circle">·</span>通过 koa 编写 api，进行 mysql 数据库的增删改查</p>
           </div>
         </div>
       </div>
