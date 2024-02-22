@@ -2,7 +2,113 @@
   <div class="company-project">
     <h1 class="title">工作经历</h1>
     <div class="company">
-      <div class="company-name">大连远舢科技( 2022 年 3 月 ~ 至今 )</div>
+      <div class="company-name">理想汽车研发总部( 2023 年 6 月 ~ 2024 年 3 月 )</div>
+      <div class="company-duty">
+        <div class="left">
+          <p>工作内容：</p>
+        </div>
+        <div class="right">
+          <p>
+            <span class="circle">·</span
+            >独立完成项目的搭建，页面开发和维护；书写并完善项目的代码规范；
+          </p>
+          <p>
+            <span class="circle">·</span>参与需求评审，原型设计，UI
+            评审；书写技术方案文档，并参与技术方案评审 ；
+          </p>
+          <p>
+            <span class="circle">·</span
+            >负责维护公司内部组件库，封装人员选择，文件上传，批量操作，定制下拉选择等通用业务组件，并书写使用文档。
+          </p>
+          <p>
+            <span class="circle">·</span
+            >使用低代码平台搭建低复杂度的项目，并负责低代码平台的组件二开工作。
+          </p>
+          <p><span class="circle">·</span>负责使用 vue3 重构 vue2 的老旧项目。</p>
+        </div>
+      </div>
+      <div class="job">
+        <div class="job-name">望楼产品作战系统</div>
+        <div class="skill-list">
+          <div class="skill">Vue3</div>
+          <div class="skill">Element Plus</div>
+          <div class="skill">Typescript</div>
+          <div class="skill">vxe-table</div>
+          <div class="skill">pnpm</div>
+          <div class="skill">vite</div>
+          <div class="skill">GitLab</div>
+        </div>
+        <div class="project-info">
+          <div class="left">
+            <p>项目简介：</p>
+          </div>
+          <div class="right">
+            <p>
+              用户可以通过调整价格，抖音搜索指数，用户满意度，渠道门店数等多个参数，根据历史的销量，预测未来的销量。
+              前端主要多以表格，图表等形式将结果反馈到页面上。由 CEO 李想直接提出的需求，S+ 级项目。
+            </p>
+          </div>
+        </div>
+        <div class="project-my">
+          <div class="left">
+            <p>我负责的：</p>
+          </div>
+          <div class="right">
+            <p><span class="circle">·</span>独立搭建项目，完成所有页面的开发，书写技术方案文档；</p>
+            <p><span class="circle">·</span>接入第三方平台，如用户中心，sentry，MDN，埋点；</p>
+            <p><span class="circle">·</span>使用 vxe-table 实现动态列，多维度切换的复杂表格；</p>
+            <p>
+              <span class="circle">·</span>通过 requestAnimationFrame API
+              实现丝滑的表格预测临界线跟随效果。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="job">
+        <div class="job-name">新版用户中心</div>
+        <div class="skill-list">
+          <div class="skill">Vue3</div>
+          <div class="skill">Element Plus</div>
+          <div class="skill">Typescript</div>
+          <div class="skill">vxe-table</div>
+          <div class="skill">pnpm</div>
+          <div class="skill">vite</div>
+          <div class="skill">GitLab</div>
+        </div>
+        <div class="project-info">
+          <div class="left">
+            <p>项目简介：</p>
+          </div>
+          <div class="right">
+            <p>
+              部门的核心系统，部门内所有系统的权限管理都由该系统负责。比如系统身份，页面权限，操作权限等。
+              前端主要以大量的表格，表单，树形结构的数据展示为主。
+            </p>
+          </div>
+        </div>
+        <div class="project-my">
+          <div class="left">
+            <p>我负责的：</p>
+          </div>
+          <div class="right">
+            <p>
+              <span class="circle">·</span>独立搭建项目，使用 vue3
+              对旧版系统进行重构，并完成所有页面的开发，书写技术方案文档；
+            </p>
+            <p>
+              <span class="circle">·</span>使用 Intersection Observer API
+              完成操作日志的无限滚动效果。
+            </p>
+            <p>
+              <span class="circle">·</span
+              >难点：需要去旧项目扒系统功能，扒接口，根据自己审美设计页面。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="company">
+      <div class="company-name">大连远舢科技( 2022 年 3 月 ~ 2023 年 6 月 )</div>
       <div class="company-duty">
         <div class="left">
           <p>工作内容：</p>
@@ -43,7 +149,7 @@
           </div>
           <div class="right">
             <p>
-              人工智能物联网，对客户现场的设备进行管理，采集现场设备的数值，通过系统进行加工展示，以及设备的反控。
+              人工智能物联网，对客户现场的设备进行管理，采集现场设备的数值，通过系统进行数据的加工和展示，以及设备的反控。
             </p>
           </div>
         </div>
@@ -66,7 +172,8 @@
               >实现数据可视化以及地图部分的需求；
             </p>
             <p>
-              <span class="circle">·</span>通过<strong> antv-x6 </strong>实现拖拽生成流程图的需求；
+              <span class="circle">·</span>通过<strong> antv-x6 </strong
+              >实现拖拽生成流程图，能源流动图的需求；
             </p>
             <p>
               <span class="circle">·</span>通过<strong> video.js </strong
@@ -77,74 +184,13 @@
               <span class="circle">·</span>通过<strong> websocket </strong>实时展示现场的告警信息；
             </p>
             <p>
-              <span class="circle">·</span>通过<strong> Axure </strong>
-              完成原型设计，并参与原型评审。
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="job">
-        <div class="job-name">智慧能源管控平台</div>
-        <div class="skill-list">
-          <div class="skill">Vue2</div>
-          <div class="skill">Gitee</div>
-          <div class="skill">yarn</div>
-          <div class="skill">echars</div>
-          <div class="skill">Antv</div>
-          <div class="skill">ElementUI</div>
-        </div>
-        <div class="project-info">
-          <div class="left">
-            <p>项目简介：</p>
-          </div>
-          <div class="right">
-            <p>
-              造纸厂能源管理系统，对客户现场的水电气等能源进行管理，通过大量的图表进行数据的展示，以及将工厂的能源流动情况展示在系统中。
-            </p>
-          </div>
-        </div>
-        <div class="project-my">
-          <div class="left">
-            <p>我负责的：</p>
-          </div>
-          <div class="right">
-            <p><span class="circle">·</span>负责工程从无到有的创建</p>
-            <p>
-              <span class="circle">·</span>通过<strong> antv-x6 </strong>实现拖拽生成能源流动图；
-            </p>
-            <p>
               <span class="circle">·</span>通过<strong> ElementUI </strong
               >实现可编辑表格，单元格合并；
             </p>
-          </div>
-        </div>
-      </div>
-      <div class="job">
-        <div class="job-name">虎视 AI-PaaS</div>
-        <div class="skill-list">
-          <div class="skill">Vue2</div>
-          <div class="skill">Gitee</div>
-          <div class="skill">yarn</div>
-          <div class="skill">fabric.js</div>
-          <div class="skill">IView</div>
-        </div>
-        <div class="project-info">
-          <div class="left">
-            <p>项目简介：</p>
-          </div>
-          <div class="right">
             <p>
-              通过对工厂设备的图片进行标注，然后进行算法训练，对算法模型进行管理，如烟丝宽度，虫情识别，无人值守等。
+              <span class="circle">·</span>通过<strong> Axure </strong>
+              完成原型设计，并参与原型评审。
             </p>
-          </div>
-        </div>
-        <div class="project-my">
-          <div class="left">
-            <p>我负责的：</p>
-          </div>
-          <div class="right">
-            <p><span class="circle">·</span>使用 <strong>flex</strong> 布局进行页面结构优化；</p>
-            <p><span class="circle">·</span>通过<strong> fabric.js </strong>实现图片标注功能；</p>
           </div>
         </div>
       </div>
@@ -168,10 +214,15 @@
         <div class="job-name">云鹿 CRM</div>
         <div class="skill-list">
           <div class="skill">Vue2</div>
-          <div class="skill">GitLab</div>
-          <div class="skill">npm</div>
+          <div class="skill">Vue3</div>
+          <div class="skill">Nuxt3</div>
+          <div class="skill">Typescript</div>
           <div class="skill">ElementUI</div>
           <div class="skill">Vant</div>
+          <div class="skill">Koa</div>
+          <div class="skill">mysql</div>
+          <div class="skill">npm</div>
+          <div class="skill">GitLab</div>
         </div>
         <div class="project-info">
           <div class="left">
@@ -202,90 +253,18 @@
               >负责移动端活动页面的开发，如签到抽奖，九宫格，大转盘抽奖，并形成公用基础组件供团队成员使用；
             </p>
             <p>
-              <span class="circle">·</span>通过 <strong>websocket</strong> 实现在线客服聊天的功能；
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="job">
-        <div class="job-name">超级无限定制中心</div>
-        <div class="skill-list">
-          <div class="skill">Vue3</div>
-          <div class="skill">Typescript</div>
-          <div class="skill">GitLab</div>
-          <div class="skill">npm</div>
-          <div class="skill">Vant</div>
-        </div>
-        <div class="project-info">
-          <div class="left">
-            <p>项目简介：</p>
-          </div>
-          <div class="right">
-            <p>专门完成各个商家定制活动，如集卡有礼，首购复购有礼，拼团拆分礼品等。</p>
-          </div>
-        </div>
-        <div class="project-my">
-          <div class="left">
-            <p>我负责的：</p>
-          </div>
-          <div class="right">
-            <p>
-              <span class="circle">·</span>负责定制活动的开发，并结合微信 sdk，京东
+              <span class="circle">·</span
+              >负责定制活动的开发，如集卡有礼，首购复购有礼，拼团拆分礼品等，并结合微信 sdk，京东
               sdk，实现小程序，朋友圈转发的功能。
             </p>
-          </div>
-        </div>
-      </div>
-      <div class="job">
-        <div class="job-name">超级会员</div>
-        <div class="skill-list">
-          <div class="skill">Vue2</div>
-          <div class="skill">Jquery</div>
-          <div class="skill">JSP</div>
-          <div class="skill">SVN</div>
-          <div class="skill">IView</div>
-        </div>
-        <div class="project-info">
-          <div class="left">
-            <p>项目简介：</p>
-          </div>
-          <div class="right">
-            <p>跟云鹿 CRM 差不多的产品，比较老旧。</p>
-          </div>
-        </div>
-        <div class="project-my">
-          <div class="left">
-            <p>我负责的：</p>
-          </div>
-          <div class="right">
-            <p><span class="circle">·</span>负责 Web 端和移动端页面的开发，联调，维护。</p>
-          </div>
-        </div>
-      </div>
-      <div class="job">
-        <div class="job-name">云鹿活动模板管理子系统</div>
-        <div class="skill-list">
-          <div class="skill">Vue3</div>
-          <div class="skill">Nuxt3</div>
-          <div class="skill">Typescript</div>
-          <div class="skill">Koa</div>
-          <div class="skill">mysql</div>
-        </div>
-        <div class="project-info">
-          <div class="left">
-            <p>项目简介：</p>
-          </div>
-          <div class="right">
-            <p>用户管理云鹿的活动模板，控制显示隐藏和开放时间等。</p>
-          </div>
-        </div>
-        <div class="project-my">
-          <div class="left">
-            <p>我负责的：</p>
-          </div>
-          <div class="right">
-            <p><span class="circle">·</span>使用 Nuxt3 搭建项目；</p>
-            <p><span class="circle">·</span>通过 koa 编写 api，进行 mysql 数据库的增删改查</p>
+            <p>
+              <span class="circle">·</span>通过 <strong>websocket</strong> 实现在线客服聊天的功能；
+            </p>
+            <p>
+              <span class="circle">·</span>使用 Nuxt3
+              搭建云鹿活动模板管理子系统；用于管理云鹿的活动模板，控制显示隐藏和开放时间等；
+            </p>
+            <p><span class="circle">·</span>通过 koa 编写 api，进行 mysql 数据库的增删改查。</p>
           </div>
         </div>
       </div>
@@ -310,7 +289,7 @@
   .company {
     .company-name {
       font-size: 20px;
-      color: #666;
+      color: #00665f;
       font-weight: bolder;
       margin: 8px 0;
     }
@@ -328,6 +307,7 @@
         font-size: 18px;
         font-weight: bold;
         margin: 8px 0;
+        color: #469d34;
       }
       .skill-list {
         display: flex;

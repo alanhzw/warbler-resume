@@ -70,32 +70,11 @@
       </div>
     </div>
     <div class="job">
-      <div class="job-name">Warbler-Favorites</div>
-      <div class="skill-list">
-        <div class="skill">Vue3</div>
-        <div class="skill">Typescript</div>
-        <div class="skill">Github</div>
-      </div>
-      <div class="project-info">
-        <div class="left">
-          <p>项目简介：</p>
-        </div>
-        <div class="right">
-          <p><span class="circle">·</span>基于 vue3 实现的网站收藏夹；</p>
-          <p><span class="circle">·</span>在线体验地址 http://warbler.duwanyu.com/</p>
-          <p><span class="circle">·</span>源码地址 https://github.com/alanhzw/warbler-homepage</p>
-        </div>
-      </div>
-    </div>
-    <div class="job">
-      <div class="job-name">其它连接</div>
+      <div class="job-name">相关链接</div>
       <div class="project-info">
         <div class="right">
           <p><span class="circle">·</span>Github https://github.com/alanhzw</p>
           <p><span class="circle">·</span>掘金社区 https://juejin.cn/user/4099422807393901/posts</p>
-          <p>
-            <span class="circle">·</span>贪吃蛇小游戏 http://game.duwanyu.com/GreedySnake/index.html
-          </p>
         </div>
       </div>
     </div>
