@@ -73,6 +73,7 @@
       <div class="job-name">相关链接</div>
       <div class="project-info">
         <div class="right">
+          <p><span class="circle">·</span>个人博客 http://www.warblerfe.top/</p>
           <p><span class="circle">·</span>Github https://github.com/alanhzw</p>
           <p><span class="circle">·</span>掘金社区 https://juejin.cn/user/4099422807393901/posts</p>
         </div>

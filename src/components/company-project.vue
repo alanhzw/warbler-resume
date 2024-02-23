@@ -2,7 +2,7 @@
   <div class="company-project">
     <h1 class="title">工作经历</h1>
     <div class="company">
-      <div class="company-name">理想汽车研发总部( 2023 年 6 月 ~ 2024 年 3 月 )</div>
+      <div class="company-name">北京理想汽车研发总部( 2023 年 6 月 ~ 2024 年 3 月 )</div>
       <div class="company-duty">
         <div class="left">
           <p>工作内容：</p>
