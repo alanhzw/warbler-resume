@@ -1,7 +1,7 @@
 <template>
   <div class="educational">
     <h1 class="title">教育经历</h1>
-    <p>2016年 ~ 2020年 大连大学 软件工程专业 本科</p>
+    <p>2016年 ~ 2020年 大连大学 软件工程专业 双非一本</p>
   </div>
 </template>
 

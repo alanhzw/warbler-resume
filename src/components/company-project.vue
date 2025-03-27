@@ -2,6 +2,45 @@
   <div class="company-project">
     <h1 class="title">工作经历</h1>
     <div class="company">
+      <div class="company-name">北京华谱科仪( 2024 年 3 月 ~ 2025 年 6 月 )</div>
+      <div class="company-duty">
+        <div class="left">
+          <p>工作内容：</p>
+        </div>
+        <div class="right">
+          <p>
+            <span class="circle">·</span
+            >独立完成项目的搭建，页面开发和维护；书写并完善项目的代码规范；
+          </p>
+        </div>
+      </div>
+      <div class="job">
+        <div class="job-name">色谱信息管理系统</div>
+        <div class="skill-list">
+          <div class="skill">Vue3</div>
+          <div class="skill">Arco Design</div>
+          <div class="skill">Typescript</div>
+          <div class="skill">PageJs</div>
+        </div>
+        <div class="project-info">
+          <div class="left">
+            <p>项目简介：</p>
+          </div>
+          <div class="right">
+            <p>用户可以通过调整价格</p>
+          </div>
+        </div>
+        <div class="project-my">
+          <div class="left">
+            <p>我负责的：</p>
+          </div>
+          <div class="right">
+            <p><span class="circle">·</span>独立搭建项目，完成所有页面的开发，书写技术方案文档；</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="company">
       <div class="company-name">北京理想汽车研发总部( 2023 年 6 月 ~ 2024 年 3 月 )</div>
       <div class="company-duty">
         <div class="left">
@@ -108,7 +147,7 @@
       </div>
     </div>
     <div class="company">
-      <div class="company-name">大连远舢科技( 2022 年 3 月 ~ 2023 年 6 月 )</div>
+      <div class="company-name">大连远舢科技( 2022 年 2 月 ~ 2023 年 6 月 )</div>
       <div class="company-duty">
         <div class="left">
           <p>工作内容：</p>

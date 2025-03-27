@@ -4,11 +4,12 @@
     <p>
       熟悉<strong> Vue </strong>，有多个实际项目开发经验，包括 <strong> Vue2 </strong>，<strong>
         Vue3 </strong
-      >，<strong> Nuxt </strong>，<strong> VitePress </strong> 等；
+      >，<strong> Nuxt </strong>，<strong> VitePress </strong>等；
     </p>
     <p>熟悉<strong> ES6+ </strong>语法，了解 <strong>TypeScript</strong>；</p>
+    <p>能够运用<strong> Electron </strong>，开发桌面应用；</p>
     <p>
-      能够利用 <strong>commander </strong>等第三方库进行脚手架开发，了解<strong>lerna </strong
+      能够运用 <strong>commander </strong>等第三方库进行脚手架开发，了解<strong>lerna </strong
       >多仓库管理；
     </p>
     <p>

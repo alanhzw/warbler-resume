@@ -1,5 +1,5 @@
 <template>
-  <div class="resume">
+  <div class="resume" @click="handlePrint">
     <personal-information></personal-information>
     <skills></skills>
     <company-project></company-project>
@@ -14,11 +14,16 @@ import skills from './components/skills.vue';
 import warblerFe from './components/wabler-fe.vue';
 import companyProject from './components/company-project.vue';
 import educational from './components/educational.vue';
+
+const handlePrint = () => {
+  // 修改背景色
+  document.body.style.background = '#fff';
+  window.print();
+};
 </script>
 
 <style lang="scss">
 body,
-html,
 #app {
   width: 100%;
   height: 100%;
